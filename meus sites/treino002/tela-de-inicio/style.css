@@ -58,7 +58,7 @@ nav a {
     color: white;
     padding: 5px;
     font-weight: bolder;
-    transition-duration: .5s;
+    transition-duration: 1s;
 }
 
 nav a:hover {
@@ -68,4 +68,109 @@ nav a:hover {
     border-radius: 5px;
 }
 
-main
+main {
+    background-color: white;
+    margin: auto;
+    max-width: 800px;
+    max-height: 2000px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+main h1 {
+    font-family: 'bebas', cursive;
+    font-size: 2em;
+    padding-bottom: 5px;
+    color: #59005C;
+}
+
+main h2 {
+    font-family: 'bebas', cursive;
+    font-size: 1.5em;
+    color: #A300A8;
+    border-radius: 10px;
+    text-indent: 15px;
+}
+
+main > article > p {
+    text-align: justify;
+    text-indent: 20px;
+    margin: 15px 0px;
+}
+
+main p {
+    line-height: 20px;
+}
+
+main strong { 
+    color: #59005C;
+}
+
+main a { 
+    text-decoration: none;
+    font-weight: bold;
+    color: #59005C;
+    background-color: #D400DC;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: #A300A8;
+}
+
+main a::after {
+    content: '\00A0\1F517';
+    
+}
+
+main img {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+main .pequeno {
+    display: block;
+    margin: auto;
+    max-width: 350px;
+}
+
+div.video {
+    background-color: #59005C;
+    padding: 20px;
+    margin: 0px -20px 30px -20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 90%;
+    width: 90%;
+}
+
+aside  p {
+    margin-top: 30px;
+    text-align: justify;
+}
+
+footer {
+    color: white;
+    background-color: #59005C;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #de8ce0;
+    text-decoration: underline;
+}
